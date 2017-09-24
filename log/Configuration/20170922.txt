@@ -1,0 +1,2 @@
+2017/09/22 09:54:04 Error DB: ha ocurrido un error al crear la transaccion en la base de datos: Unable to get instances from Sql Server Browser on host 209.208.26.40: read udp 192.168.2.18:60020->209.208.26.40:1434: i/o timeout 2017-09-22 09:54:04.9787738 -0500 -05 m=+23.664453700
+2017/09/22 09:54:18 Error DB, error en la consulta a la base de datos en la tabla usr_bonding, Unable to get instances from Sql Server Browser on host 209.208.26.40: read udp 192.168.2.18:58008->209.208.26.40:1434: i/o timeout:  2017-09-22 09:54:18.8673613 -0500 -05 m=+37.553041200
