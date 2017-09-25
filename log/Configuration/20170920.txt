@@ -1,1 +1,0 @@
-2017/09/20 17:00:58 Error DB, error en la consulta a la base de datos en la tabla usr_bonding, Unable to get instances from Sql Server Browser on host 209.208.26.40: read udp 192.168.2.21:51530->209.208.26.40:1434: i/o timeout:  2017-09-20 17:00:58.9257159 -0500 -05 m=+28.732564900
