@@ -12,7 +12,7 @@ import (
 	"github.com/e-capture/ECMVinculacion/structurs/request"
 	"encoding/json"
 	"github.com/jung-kurt/gofpdf"
-	"golang.org/ejemplo/example"
+	"github.com/e-capture/ECMVinculacion/example"
 	"io/ioutil"
 )
 func Index(c echo.Context) error {
@@ -273,7 +273,7 @@ func Create(c echo.Context) error {
 	pdf.Ln(20)
 	pdf.WriteAligned(0,35, "Objetivos de Inversion : "+model.Investment_Objectives, "")
 	pdf.Ln(20)
-	pdf.SetFont("Arial", "", fontPtSize)
+	pdf.SetFont("Arial", "B", fontPtSize)
 	pdf.SetFillColor(38, 78, 114)
 	pdf.SetTextColor(255, 255, 255)
 	pdf.CellFormat(0, 8, "Tolerancia al Riesgo del Cliente", "1", 1, "C", true, 0, "")
